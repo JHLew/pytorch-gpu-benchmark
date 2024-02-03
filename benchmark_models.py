@@ -27,6 +27,7 @@ MODEL_LIST = {
     models.mobilenet: models.mobilenet.mv2_all[1:],
     models.mobilenet: models.mobilenet.mv3_all[1:],
     models.shufflenetv2: models.shufflenetv2.__all__[1:],
+    models.vision_transformer: models.vision_transformer.__all__[1:],
 }
 
 precisions = ["float", "half", "double"]
