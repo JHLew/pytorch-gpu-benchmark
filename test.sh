@@ -1,5 +1,5 @@
 #! /bin/bash
-count=`nvidia-smi --query-gpu=name --format=csv,noheader | wc -l`
+count=1  # `nvidia-smi --query-gpu=name --format=csv,noheader | wc -l`
 
 echo 'start'
 for (( c=$count; c>=1; c-- ))
